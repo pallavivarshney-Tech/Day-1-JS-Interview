@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day-1 JS-Interview Questions</title>
+</head>
+<body style="background-color:aquamarine">
+
+  <h1 style="background-color:chartreuse">Day-1 Interview Questions </h1>
+    <h1 style="background-color:burlywood">Question 1</h1>
+    <br>
+
+    <h2 style="background-color:darksalmon">Difference between “ == “ and “ === “ operators.</h2>
+    
+  == double equals to checks only only for values not the data types but === triple equal checks for both the values as well as data type.
+  <br>
+  <br>
+   <h1 style="background-color:burlywood">Question 2</h1>
+    <h2 style="background-color:darksalmon">What is the spread operator?</h2>
+<br>
+
+  The spread operator is commonly used to make shallow copies of JS objects. Using this operator makes the code concise and enhances its readability.
+
+<br>
+<br>
+
+ <h1 style="background-color:burlywood">Question 3</h1>
+<h2 style="background-color:darksalmon">What are the differences between var, let and const? </h2>
+
+let- we can declare the variable name in one line or in the same line itself.
+     Two variables with same names aren't possible in let.
+     we can reassign/update the value if already asssigned.
+    Let is a block-scoped.
+    Let doesn't supports hoisting.
+    <br>
+    <br>
+    Hoisting - it brings the variables and functions at the top of thecode it supports only variable declaration but not its initialisation.
+    <br>
+    <br>
+Const- we have to declare and initialise the variable name in same line.
+Two variables with same names aren't possible in const.
+we can't reassign/update the value if already initialised.
+Let is a block-scoped.
+Let doesn't supports hoisting.<br>
+<br>
+Var-
+we can declare the variable name in one line or in the same line itself.
+Two variables with same names are possible in var.
+we can reassign/update the value if already asssigned.
+Let is a global-scoped.
+Var supports hoisting.
+
+<h1 style="background-color:burlywood">Question 4</h1>
+<h2 style="background-color:darksalmon">What is execution context?</h2>
+  
+The Execution Context contains the code that's currently running, and everything that aids in its execution. During the Execution Context run-time, the specific code gets parsed by a parser, the variables and functions are stored in memory,
+ executable byte-code gets generated, and the code gets executed.
+ <br>
+ <br>
+ There are two kinds of Execution Context in JavaScript:
+<br>
+Global Execution Context (GEC)
+<br>
+Function Execution Context (FEC)
+<br>
+<br>
+Global Execution Context:-Whenever the JavaScript engine receives a script file, it first creates a default Execution Context known as the Global Execution Context (GEC).
+
+  The GEC is the base/default Execution Context where all JavaScript code that is not inside of a function gets executed.
+<br>
+<br>
+Function Execution Context:-Whenever a function is called, the JavaScript engine creates a different type of Execution Context known as a Function Execution Context (FEC) within the GEC to evaluate and execute the code within that function.
+
+ Since every function call gets its own FEC, there can be more than one FEC in the run-time of a script.                 
+
+
+
+ <h1 style="background-color:burlywood">Question 5</h1>
+ <h2 style="background-color:darksalmon">What are closures? Give an example of closure.</h2>
+<br>
+
+
+A closure gives you access to an outer function's scope from an inner function.
+ In JavaScript, closures are created every time a function is created, at function creation time.
+
+ <h1 style="background-color:burlywood">Question 6</h1>
+ <h2 style="background-color:darksalmon">What is execution phase and creation phase?</h2>
+
+ The Execution Context Object stores a lot of important data which the code in the Execution Context uses during its run-time.
+ <br>
+ <br>
+ The creation phase occurs in 3 stages, during which the properties of the Execution Context Object are defined and set. 
+ These stages are: Creation of the Variable Object
+
+ <script src="index.js"></script>
+</body>
+</html>
